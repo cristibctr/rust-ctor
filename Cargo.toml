@@ -23,6 +23,7 @@ default-members = [
     "tests/edition-2021",
 ]
 resolver = "2"
+dependencies = { wasm-bindgen = {version = "=0.2.100"} }
 
 [patch.crates-io]
 ctor = { path = "ctor" }
